@@ -1,0 +1,128 @@
+/* ----[Media Q]------------------------------------------------- */
+/* ----------------------------------------- */
+
+/* ----[Desktop]------------------------------------------------- */
+
+/* ----[End of Desktop]------------------------------------------------- */
+
+@media (min-width: 1280px) {
+    body {
+        border:solid green;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+}
+/* ----[Mid]------------------------------------------------- */
+@media (min-width: 580px) {
+    body {
+        border: solid red;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+}
+/* ----[End o Mid]------------------------------------------------- */
+
+/* ----[Mobile]------------------------------------------------- */
+@media (max-width: 580px) {
+    body {
+        border:solid blue;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+}
+/* ----[End of Mobile]------------------------------------------------- */
+
+/* ----------------------------------------- */
+
+/* ----[General]------------------------------------------------- */
+
+.navigation-container {
+    border: solid purple;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1em;
+    margin-right: 1em;
+    height: 6vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-tag-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
+    width: 40%;
+}
+
+.disney-logo-div {
+    border: solid grey;
+    width: 10%;
+}
+
+.logo {
+    height: 100;
+    width: 100%;
+}
+
+.nav-tag {
+    border: solid peru;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.1vw;
+}
+
+.sign-in-container {
+    border: solid turquoise;
+    width: 20%;
+    text-align: right;
+    margin-right: 1%;
+}
+
+.search-container {
+    border: solid salmon;
+    width: 30%;
+    display: flex;
+}
+
+input {
+    width: 100%;
+    position: relative;
+    background-color: rgba(240, 236, 236, 0.726);
+    height: 3vh;
+}
+
+.bi-search {
+    position: absolute;
+    right: 3%;
+    top: 2.7%;
+}
+
+.top-image-container {
+    border: solid black;
+    display: flex;
+    height: 58vh;
+    
+}
+
+.top-image {
+    height: 100%;
+}
+
+.learn-more-container {
+    border: solid seagreen;
+    display: flex;
+    height: 30vh;
+}
+
+.learn-more-section {
+    border: solid brown;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
