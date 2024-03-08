@@ -2,35 +2,533 @@
 /* ----------------------------------------- */
 
 /* ----[Desktop]------------------------------------------------- */
-
-/* ----[End of Desktop]------------------------------------------------- */
-
-@media (min-width: 1280px) {
+@media (min-width: 980px) {
     body {
-        border:solid green;
+        /* border:solid green; */
         display: flex;
         flex-direction: column;
-        margin: 0;
+        margin-left: 6vw;
+        margin-right: 6vw;
+    }
+
+    /* Navigation Container */
+
+    .navigation-container {
+        /* border: solid purple; */
+        display: flex;
+        justify-content: space-between;
+        margin-left: 1em;
+        margin-right: 1em;
+        height: 5vh;
+        justify-content:baseline;
+        align-items: center;
+    }
+
+    .hideable {
+        display: block;
+    }
+
+    .mobile-side-bar {
+        display: none;
+        width: 1vw;
+        margin-right: 0;
+    }
+
+    /* Disney Logo */
+
+    .disney-logo-div {
+        /* border: solid grey; */
+        width: 7%;
+    }
+
+    /* Nav Tags Container */
+
+    .nav-tag-container {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 2%;
+        width: 40%;
+    }
+
+    /* Nav Tags */
+
+    .nav-tag {
+        /* border: solid peru; */
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 0.8vw;
+        margin: 0 auto;
+    }
+
+    /* Sign In Container */
+
+    .sign-in-container {
+        display: block;
+        /* border: solid turquoise; */
+        width: 47%;
+        text-align: right;
+        margin-right: 1%;
+    }
+
+    /* Search Container */
+
+    .search-container {
+        /* border: solid salmon; */
+        width: 28%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    input {
+        display: block;
+        width: 100%;
+        background-color: rgba(240, 236, 236, 0.726);
+        height: 4vh;
+        border-radius: 0.3vw;
+        border: 1px solid gray;
+    }
+
+    /* Top Image Container */
+
+    .top-image-container {
+        border: solid black;
+        display: flex;
+        justify-content:flex-end;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+    }
+
+    /* On Top Image Details Container */
+
+    .on-image-details {
+        background-color: transparent;
+        position: absolute;
+        z-index: 2;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 50%;
+        gap: 2vh;
+        padding: 0;
+    }
+
+    .image-btn button{
+        background-color: #f7c753;
+        border-radius: 2vw;
+        border:1vw solid #f7c753;
+        font-weight: 600;
+        font-size: 0.9vw;
+        width: 15vw;
+        height: 6vh;
+    }
+
+    .image-text {
+        color: white;
+        flex-wrap: wrap;
+        font-size: 1vw;
+        text-align: center;
+    }
+
+    .iwaju-image-div {
+        width: 50%;
+    }
+
+    /* Learn More Container */
+
+    .learn-more-container {
+        /* border: solid seagreen; */
+        display: flex;
+        width: 100%;
+        padding: 1%;
+        align-items: stretch;
+        background-color: #f1f2f3;
+        flex-wrap: nowrap;
+    }
+
+    /* Learn More Section */
+    .learn-more-section {
+        background-color: white;
+        width: 25%;
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch; 
+        text-align: center;
+        border: 1vw solid #f1f2f3;
+    }
+
+    .learn-more-details {
+        margin-top: -18%;
+        font-size: 1.05vw;
+    }
+
+    .learn-more-title {
+        font-size: 1.7vw;
+        font-weight: 300;
+    }
+
+    .learn-more-anchor a{
+        color: black;
+        font-weight: 600;
     }
 }
+/* ----[End of Desktop]------------------------------------------------- */
+
 /* ----[Mid]------------------------------------------------- */
-@media (min-width: 580px) {
+@media (max-width: 980px) {
     body {
-        border: solid red;
+        /* border: solid red; */
         display: flex;
         flex-direction: column;
-        margin: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    /* Navigation Container */
+
+    .navigation-container {
+        /* border: solid purple; */
+        display: flex;
+        justify-content: space-between;
+        margin-left: 1em;
+        margin-right: 1em;
+        height: 5vh;
+        justify-content:baseline;
+        align-items: center;
+    }
+
+    .hideable {
+        display: none;
+    }
+
+    .mobile-side-bar {
+        display: none;
+        width: 1vw;
+        margin-right: 0;
+    }
+
+    /* Disney Logo */
+
+    .disney-logo-div {
+        /* border: solid grey; */
+        width: 15%;
+    }
+
+    /* Nav Tags Container */
+
+    .nav-tag-container {
+        display: flex;
+        justify-content: left;
+        margin: 2%;
+        width: 45%;
+    }
+
+    /* Nav Tags */
+
+    .nav-tag {
+        /* border: solid peru; */
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 1.6vw;
+        margin: 3%;
+    }
+
+    /* Sign In Container */
+
+    .sign-in-container {
+        display: block;
+        /* border: solid turquoise; */
+        width: 14%;
+        text-align: right;
+        margin-right: 1%;
+    }
+
+    /* Search Container */
+
+    .search-container {
+        /* border: solid salmon; */
+        width: 48%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    input {
+        display: block;
+        width: 100%;
+        background-color: rgba(240, 236, 236, 0.726);
+        height: 4vh;
+        border-radius: 0.3vw;
+        border: 1px solid gray;
+    }
+
+    /* Top Image Container */
+
+    .top-image-container {
+        /* border: solid black; */
+        display: flex;
+        justify-content:flex-end;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+    }
+
+    /* On Top Image Details Container */
+
+    .on-image-details {
+        background-color: transparent;
+        position: absolute;
+        z-index: 2;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 50%;
+        gap: 1vh;
+        padding: 0;
+    }
+
+    .image-btn button{
+        background-color: #f7c753;
+        border-radius: 3vw;
+        border:1vw solid #f7c753;
+        font-weight: 550;
+        font-size: 1.5vw;
+        width: 25vw;
+        height: 6vh;
+    }
+
+    .image-text {
+        color: white;
+        flex-wrap: wrap;
+        font-size: 1.8vw;
+        text-align: center;
+    }
+
+    .iwaju-image-div {
+        width: 78%;
+    }
+
+    /* Learn More Container */
+
+    .learn-more-container {
+        /* border: solid seagreen; */
+        display: flex;
+        width: 100%;
+        padding: 1%;
+        align-items: stretch;
+        background-color: #f1f2f3;
+        flex-wrap: wrap;
+    }
+
+    /* Learn More Section */
+    .learn-more-section {
+        background-color: white;
+        width: 46%;
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        text-align: center;
+        border: 1vw solid #f1f2f3;
+    }
+
+    .learn-more-details {
+        margin-top: -10%;
+        font-size: 2vw;
+    }
+
+    .learn-more-title {
+        font-size: 2vw;
+        font-weight: 200;
+    }
+
+    .learn-more-anchor a{
+        color: black;
+        font-weight: 600;
     }
 }
 /* ----[End o Mid]------------------------------------------------- */
 
 /* ----[Mobile]------------------------------------------------- */
-@media (max-width: 580px) {
+@media (max-width: 680px) {
     body {
-        border:solid blue;
+        /* border:solid blue; */
         display: flex;
         flex-direction: column;
-        margin: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    /* Navigation Container */
+
+    .navigation-container {
+        /* border: solid purple; */
+        display: flex;
+        justify-content: space-between;
+        margin-left: 0;
+        margin-right: 0;
+        height: 5vh;
+        justify-content:baseline;
+        align-items: center;
+    }
+
+    .hideable {
+        display: none;
+    }
+
+    .mobile-side-bar {
+        display: flex;
+        width: 5%;
+        margin-right: 23%;
+    }
+
+    /* Disney Logo */
+
+    .disney-logo-div {
+        /* border: solid grey; */
+        width: 15%;
+    }
+
+
+    /* Nav Tags Container */
+
+    .nav-tag-container {
+        display: none;
+        justify-content: space-between;
+        margin: 2%;
+        width: 40%;
+    }
+
+    /* Nav Tags */
+
+    .nav-tag {
+        /* border: solid peru; */
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 0.8vw;
+        margin: 3%;
+    }
+
+    /* Sign In Container */
+
+    .sign-in-container {
+        display: none;
+        /* border: solid turquoise; */
+        width: 47%;
+        text-align: right;
+        margin-right: 1%;
+    }
+
+    /* Search Container */
+
+    .search-container {
+        /* border: solid salmon; */
+        width: 28%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    input {
+        display: none;
+        width: 100%;
+        background-color: rgba(240, 236, 236, 0.726);
+        height: 4vh;
+        border-radius: 0.3vw;
+        border: 1px solid gray;
+    }
+
+    /* Top Image Container */
+
+    .top-image-container {
+        /* border: solid black; */
+        display: block;
+        justify-content:flex-end;
+        align-items: center;
+        position: unset;
+        overflow: hidden;
+    }
+
+    /* On Top Image Details Container */
+
+    .on-image-details {
+        background-color: black;
+        position:unset;
+        z-index: 0;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 0;
+        padding: 3%;
+        gap: 1vh;
+    }
+
+    .image-btn button{
+        background-color: #f7c753;
+        border-radius: 5vw;
+        border:1vw solid #f7c753;
+        font-weight: 600;
+        font-size: 2.2vw;
+        width: 33vw;
+        height: 5.5vh;
+    }
+
+    .image-text {
+        color: white;
+        flex-wrap: wrap;
+        font-size: 2.7vw;
+        text-align: center;
+    }
+
+    .iwaju-image-div {
+        width: 45%;
+    }
+
+    /* Learn More Container */
+
+    .learn-more-container {
+        /* border: solid seagreen; */
+        display: flex;
+        width: 100%;
+        padding: 1%;
+        align-items: stretch;
+        background-color: #f1f2f3;
+        flex-wrap: wrap;
+    }
+
+    /* Learn More Section */
+    .learn-more-section {
+        background-color: white;
+        width: 99%;
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items:center; 
+        text-align: center;
+        border: 1vw solid #f1f2f3;
+    }
+
+    .learn-more-details {
+        margin-top: -8%;
+        font-size: 3vw;
+    }
+
+    .learn-more-title {
+        font-size: 3.7vw;
+        font-weight: 300;
+    }
+
+    .learn-more-anchor a{
+        color: black;
+        font-weight: 600;
     }
 }
 /* ----[End of Mobile]------------------------------------------------- */
@@ -38,91 +536,60 @@
 /* ----------------------------------------- */
 
 /* ----[General]------------------------------------------------- */
-
-.navigation-container {
-    border: solid purple;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 1em;
-    margin-right: 1em;
-    height: 6vh;
-    justify-content: center;
-    align-items: center;
+.mobile-menu-icon {
+    width: 100%;
+    height: 100%;
 }
 
-.nav-tag-container {
-    display: flex;
-    justify-content: space-between;
-    margin: 2%;
-    width: 40%;
-}
-
-.disney-logo-div {
-    border: solid grey;
-    width: 10%;
-}
+/* Disney Logo */
 
 .logo {
-    height: 100;
+    height: 100%;
     width: 100%;
 }
 
-.nav-tag {
-    border: solid peru;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 1.1vw;
-}
-
-.sign-in-container {
-    border: solid turquoise;
-    width: 20%;
-    text-align: right;
-    margin-right: 1%;
-}
-
-.search-container {
-    border: solid salmon;
-    width: 30%;
-    display: flex;
-}
-
-input {
-    width: 100%;
-    position: relative;
-    background-color: rgba(240, 236, 236, 0.726);
-    height: 3vh;
-}
+/* Magnifying Glass */
 
 .bi-search {
     position: absolute;
-    right: 3%;
-    top: 2.7%;
-}
-
-.top-image-container {
-    border: solid black;
-    display: flex;
-    height: 58vh;
-    
+    right: 4%;
+    top: 24%;
 }
 
 .top-image {
     height: 100%;
+    width: 100%;   
 }
 
-.learn-more-container {
-    border: solid seagreen;
-    display: flex;
-    height: 30vh;
+/* On Top Image Details Container */
+
+.iwaju-image {
+    width: 100%;
 }
 
-.learn-more-section {
-    border: solid brown;
-    width: 25%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+/* Learn More Image Container */
+
+.learn-more-image-div {
+    display: flex; 
 }
+
+.learn-more-image {
+    width: 100%;
+    height: 100%;
+    /* border: solid blue; */
+}
+
+/* Learn More Title & Details */
+
+.learn-more-title, .learn-more-details {
+    padding: 1vw;
+}
+
+/* Learn More Anchor */
+
+.learn-more-anchor {
+    padding-bottom: 3vw;
+}
+
+
+
