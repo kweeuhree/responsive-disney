@@ -55,7 +55,7 @@
     .nav-tag {
         /* border: solid peru; */
         text-transform: uppercase;
-        font-weight: 600;
+        font-weight: 700;
         font-size: 0.8vw;
         margin: 0 auto;
     }
@@ -93,7 +93,7 @@
     /* Top Image Container */
 
     .top-image-container {
-        border: solid black;
+        /* border: solid black; */
         display: flex;
         justify-content:flex-end;
         align-items: center;
@@ -120,10 +120,10 @@
         background-color: #f7c753;
         border-radius: 2vw;
         border:1vw solid #f7c753;
-        font-weight: 600;
-        font-size: 0.9vw;
+        font-weight: 700;
+        font-size: 1vw;
         width: 15vw;
-        height: 6vh;
+        height: 5vh;
     }
 
     .image-text {
@@ -162,7 +162,7 @@
     }
 
     .learn-more-details {
-        margin-top: -18%;
+        margin-top: 0;
         font-size: 1.05vw;
     }
 
@@ -237,6 +237,7 @@
         margin: 3%;
     }
 
+
     /* Sign In Container */
 
     .sign-in-container {
@@ -297,10 +298,10 @@
         background-color: #f7c753;
         border-radius: 3vw;
         border:1vw solid #f7c753;
-        font-weight: 550;
+        font-weight: 700;
         font-size: 1.5vw;
         width: 25vw;
-        height: 6vh;
+        height: 5vh;
     }
 
     .image-text {
@@ -339,7 +340,7 @@
     }
 
     .learn-more-details {
-        margin-top: -10%;
+        margin-top: -3%;
         font-size: 2vw;
     }
 
@@ -517,7 +518,7 @@
     }
 
     .learn-more-details {
-        margin-top: -8%;
+        margin-top: -3%;
         font-size: 3vw;
     }
 
@@ -553,7 +554,7 @@
 .bi-search {
     position: absolute;
     right: 4%;
-    top: 24%;
+    top: 30%;
 }
 
 .top-image {
@@ -591,5 +592,49 @@
     padding-bottom: 3vw;
 }
 
+/* ---------------  Bootstrap -------------- */
 
+.nav-tag, .nav-tag:active, .nav-tag::after {
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.nav-tag:hover {
+    background-color: white;
+    color: rgb(92, 167, 252);
+    border: none;
+}
+
+/* Hide the dropdown arrow */
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-menu {
+    background-color: rgb(51, 51, 51);
+    border-radius: 0.2vw;
+    display: none;
+}
+
+.nav-tag:hover + .dropdown-menu {
+    background-color: rgb(51, 51, 51);
+    border-radius: 0.2vw;
+    display: block;
+}
+
+.dropdown-menu:active, .dropdown-menu::after {
+    background-color: white;
+}
+
+.dropdown-item {
+    color: white;
+    font-weight: 600;
+}
+
+.dropdown-item:hover {
+    color: rgb(92, 167, 252);;
+    font-weight: 600;
+    background-color: rgb(51, 51, 51);
+}
 
